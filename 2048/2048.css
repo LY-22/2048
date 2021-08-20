@@ -1,0 +1,56 @@
+header{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header #newgamebutton{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(164, 140, 120);
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+header p{
+    font-size: 18px;
+}
+header #score{
+    margin-left: 10px;
+}
+#grid-container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(187, 174, 162);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+div .grid-cell{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 164, 63);
+    border-radius: 10px;
+    position: absolute;
+    /* 利用绝对定位设置小格子 在js里面设置每个小格子的位置 */
+}
+.number-cell{
+    border-radius: 6px;
+    font-size: 45px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+}
